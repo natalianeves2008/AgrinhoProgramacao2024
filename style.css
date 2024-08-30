@@ -1,14 +1,17 @@
-*{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
+    background-color: #e0f7e0; /* Cor de fundo mais clara */
 }
 
 header {
-    background-color: #333;
+    background-color: #2e8b57; /* Verde escuro */
     color: #fff;
     padding: 1rem;
     text-align: center;
@@ -30,7 +33,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #fff; /* Mantém o texto branco para contraste */
     text-decoration: none;
     font-size: 1.2rem;
 }
@@ -48,12 +51,11 @@ section {
 }
 
 footer {
-    background-color: #333;
+    background-color: #2e8b57; /* Verde escuro */
     color: #fff;
     text-align: center;
     padding: 1rem;
     position: fixed;
     bottom: 0;
     width: 100%;
-}
 }
