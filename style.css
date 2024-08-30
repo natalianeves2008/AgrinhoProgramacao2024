@@ -7,11 +7,11 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #e0f7e0;
+    background-color: #f5f5dc; /* Bege claro */
 }
 
 header {
-    background-color: #104205;
+    background-color: #2e8b57; /* Verde floresta */
     color: #fff;
     padding: 1rem;
     text-align: center;
@@ -51,9 +51,10 @@ section {
 }
 
 footer {
-    background-color: #104205; /* Verde escuro */
+    background-color: #2e8b57; /* Verde floresta */
     color: #fff;
     text-align: center;
     padding: 1rem;
     width: 100%;
 }
+
